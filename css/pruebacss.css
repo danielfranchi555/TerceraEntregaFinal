@@ -20,9 +20,6 @@ nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: gray; }
 
-.carousel slide {
-  border: solid 2px red; }
-
 .alturaCarruosel {
   height: 200px; }
 
