@@ -12,14 +12,16 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/pruebacss.css" />
     <title>contacto</title>
   </head>
   <body>
     <!-- INICIA NAV========================== -->
     <nav class="navbar navbar-expand-lg navbar-light bg-ligth">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="" class="w-100"></a>
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" alt="" class="w-100"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -56,12 +58,22 @@
                 Servicios
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown ">
-                <li><a class="dropdown-item" href="control-de-plagas.html">Control de plagas</a></li>
                 <li>
-                  <a class="dropdown-item" href="limpieza-de-tanques.html">Limpieza de tanques</a>
+                  <a class="dropdown-item" href="control-de-plagas.html"
+                    >Control de plagas</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="limpieza-de-tanques.html"
+                    >Limpieza de tanques</a
+                  >
                 </li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="fumigaciones.html">Fumigaciones</a></li>
+                <li>
+                  <a class="dropdown-item" href="fumigaciones.html"
+                    >Fumigaciones</a
+                  >
+                </li>
               </ul>
             </li>
           </ul>
@@ -70,35 +82,76 @@
     </nav>
     <!-- TERMINA NAV================================= -->
 
+    <!-- INICIA FORMULARIO============================================= -->
 
+    <div class="conteiner">
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <h2 class="py-3">Contactanos</h2>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Ingresa tu email</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Contraseña</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Check me out</label
+              >
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
 
+        <div class="col-md-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.1293139388367!2d-64.26771698485203!3d-31.41056308140603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329f402ff5df45%3A0x65720f6d8796fd8!2sJG%20Desinfecci%C3%B3nes!5e0!3m2!1ses-419!2sar!4v1648922553547!5m2!1ses-419!2sar"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class=""
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    
 
- <!-- INICIA FORMULARIO============================================= -->
- <form>
-   <h2 class="py-3">Contactanos</h2>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Ingresa tu email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Enviar</button>
-</form>
+    <!-- TERMINA FORMULARIO================================================== -->
 
- <!-- TERMINA FORMULARIO================================================== -->
-
- <footer class="footer">
-  
-  <p class="parrafo_footer">JGdesinfecciones - Todos los derechos reservados- <a href=""> info@JGDESINFECCIONES.COM.ARS</a></p>
-<p class="parrafo_footer">312002606</p>
-</footer>
+    <footer class="footer">
+      <p class="parrafo_footer">
+        JGdesinfecciones - Todos los derechos reservados-
+        <a href=""> info@JGDESINFECCIONES.COM.ARS</a>
+      </p>
+      <p class="parrafo_footer">312002606</p>
+    </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
