@@ -1,4 +1,7 @@
 
-.alturaCarruosel{
-    height: 200px;
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 60vh;
 }

@@ -1,10 +1,13 @@
+
+@import"_footer.scss";
 .footer{
     text-align: center;
-    border-top: solid 1px gray;
-
+    background-color: $color-secondary;
     .parrafo_footer{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: gray
+        color: #cfcdcd;
+        padding: 15px;
     }
 }
+
  

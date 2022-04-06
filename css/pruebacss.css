@@ -1,27 +1,71 @@
 nav {
-  background-color: #778a76;
+  background-color: white;
   height: 100%;
   margin-bottom: 5px; }
   nav ul {
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+    nav ul .dropdown-menu {
+      background-color: #086880; }
   nav .logo_jg {
     height: 80px;
     border: solid 2px gray; }
 
-.parrafo_inicio {
+.top_nav {
+  background-color: #0471a3;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px; }
+  .top_nav p {
+    text-align: center;
+    font-size: 15px; }
+
+.reloj {
+  width: 30px;
+  height: 30px;
+  padding: 5px; }
+
+.instagram {
+  width: 30px;
+  height: 30px;
+  padding: 5px; }
+
+.telefono {
+  width: 30px;
+  height: 30px;
+  padding: 5px; }
+
+.titulos_inicio {
   color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  border-top: 1px solid gray;
+  padding: 20px; }
+  .titulos_inicio .parrafo_inicio {
+    color: #474747;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px; }
+
+.logo_inicio {
+  width: 50px; }
+
+.segunda_section {
+  text-align: center; }
+
+.subtitulos {
+  color: black; }
 
 .footer {
   text-align: center;
-  border-top: solid 1px gray; }
+  background-color: gray; }
   .footer .parrafo_footer {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: gray; }
+    color: #cfcdcd;
+    padding: 15px; }
 
-.alturaCarruosel {
-  height: 200px; }
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 60vh; }
 
 .container {
   color: gray; }
@@ -42,3 +86,7 @@ nav {
 
 .titulos_plagas {
   color: blue; }
+
+.mensaje {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }

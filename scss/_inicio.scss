@@ -1,4 +1,54 @@
-.parrafo_inicio{
-    color: black;
+  
+  @import"_variables.scss";
+.top_nav {
+  background-color:$color-primary;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  p {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+.reloj {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+.instagram {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.telefono {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+// EMPIEZA 1RA SECTION============================
+.titulos_inicio {
+  color: black;
+  border-top: 1px solid gray;
+  padding: 20px;
+
+  .parrafo_inicio {
+    color: rgb(71, 71, 71);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+}
+
+.logo_inicio {
+  width: 50px;
+}
+
+// EMPIEZA 2DA SECTION=======================================
+
+.segunda_section {
+  text-align: center;
+}
+.subtitulos {
+  color: black;
 }
