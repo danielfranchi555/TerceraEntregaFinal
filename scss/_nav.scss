@@ -1,18 +1,26 @@
+// @import "./variables";
+
+.top_nav{
+    background-color: map-get($map:paleta, $key:uno );
+}
+
 nav{
-    
      height: 100%;
      margin-bottom: 5px;
      border-bottom: solid 1px rgb(116, 116, 116);
+     
      ul{
         font-size: 20px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         
         .dropdown-menu {
-        background-color: rgb(8, 104, 128);
+        background-color:aqua
         }
     }
     }
     .logo_jg{
        height: 80px;
        width: 100px;
+
       }
+      

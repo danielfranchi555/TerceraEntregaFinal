@@ -1,0 +1,23 @@
+
+// MIXINS====
+@mixin text($font-size,$color,$font-family) {
+    font-size: $font-size;
+    color: $color;
+    font-family: $font-family;
+}
+
+h2{
+    @include text(25x,rgb(4, 98, 175),Georgia )
+}
+    
+p{
+    @include text(18px,gray ,Arial)
+}
+// MAP===
+$paleta:(
+    'uno':rgb(0, 0, 0),
+    'dos':gray,
+    'tres':Georgia, 'Times New Roman', Times, serif,
+    'cuatro':15px,
+)
+

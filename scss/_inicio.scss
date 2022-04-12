@@ -1,6 +1,7 @@
   
   
 .top_nav {
+
   display: flex;
   justify-content: space-between;
   padding: 5px;
@@ -45,16 +46,18 @@
   border-top: 1px solid gray;
   padding: 20px;
 
-  .parrafo_inicio {
-    color: rgb(71, 71, 71);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-  }
+  
 }
+.parrafo_inicio {
+    color: rgb(138, 130, 130);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
+  }
 .logo_inicio {
   width: 50px;
 }
+
 
 // EMPIEZA 2DA SECTION=======================================
 

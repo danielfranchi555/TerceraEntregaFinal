@@ -1,3 +1,6 @@
+.top_nav {
+  background-color: aqua; }
+
 nav {
   height: 100%;
   margin-bottom: 5px;
@@ -6,7 +9,7 @@ nav {
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
     nav ul .dropdown-menu {
-      background-color: #086880; }
+      background-color: aqua; }
 
 .logo_jg {
   height: 80px;
@@ -45,10 +48,11 @@ nav {
   color: black;
   border-top: 1px solid gray;
   padding: 20px; }
-  .titulos_inicio .parrafo_inicio {
-    color: #474747;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px; }
+
+.parrafo_inicio {
+  color: #8a8282;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
 
 .logo_inicio {
   width: 50px; }
@@ -60,7 +64,9 @@ nav {
   color: black; }
 
 .footer {
-  text-align: center; }
+  text-align: center;
+  background-color: gray;
+  width: 100%; }
   .footer .parrafo_footer {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #070707;
@@ -142,6 +148,10 @@ nav {
   color: gray;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
+.parrafo {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px; }
+
 .logos_empresa {
   width: 60px;
   height: 60px; }
@@ -161,3 +171,13 @@ nav {
 
 .subtitulos_fumigacion {
   color: black; }
+
+h2 {
+  font-size: 25x;
+  color: #0462af;
+  font-family: Georgia; }
+
+p {
+  font-size: 18px;
+  color: gray;
+  font-family: Arial; }
