@@ -1,5 +1,15 @@
+h2 {
+  font-size: 25x;
+  color: #0462af;
+  font-family: Georgia; }
+
+p {
+  font-size: 18px;
+  color: gray;
+  font-family: Arial; }
+
 .top_nav {
-  background-color: aqua; }
+  background-color: #0044ff; }
 
 nav {
   height: 100%;
@@ -65,7 +75,7 @@ nav {
 
 .footer {
   text-align: center;
-  background-color: gray;
+  background-color: #d1d1d1;
   width: 100%; }
   .footer .parrafo_footer {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
