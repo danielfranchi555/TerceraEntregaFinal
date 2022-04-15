@@ -1,20 +1,35 @@
 @import "./commons";
 
-.top_nav{
-    background-color: map-get($map:$paleta,$key:'uno');
+// .top_nav{
+//     background-color: map-get($map:$paleta,$key:'uno');
+// }
+.parrafo_top{
+    color: black;
+    
 }
-
+ .navbar-brand{
+     width: 20px;
+     height: 80px;
+     .logo_jg{
+         height: 80;
+     border-radius: 10px;
+     }
+ }
+ 
+ 
 nav{
-     height: 100%;
-     margin-bottom: 5px;
-     border-bottom: solid 1px rgb(116, 116, 116);
+     background-color: rgba(13, 179, 165, 0.637);
+     margin-bottom: 200px;
+     
+     
      
      ul{
         font-size: 20px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         
+        
         .dropdown-menu {
-        background-color:aqua
+        background-color:white
         }
     }
     }

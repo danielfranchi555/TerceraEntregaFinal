@@ -1,3 +1,8 @@
+.titulo_empresa{
+ text-align: center;
+ margin-top: 200px;
+}
+
 .parrafo{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 15px;
@@ -15,4 +20,21 @@
     padding: 10px;
   }
 
+  .titulo_servicio{
+    text-align: center;
+  }
   
+  .card-img-top{
+    height: auto;
+    width: auto;
+  }
+
+  .card{
+    transition: all 440ms ease;
+    
+  }
+
+  .card :hover{
+    box-shadow: 5px 5px 20px rgb(5, 5, 5);
+    transform: translateY(-3%);
+  }

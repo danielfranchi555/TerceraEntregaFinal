@@ -6,7 +6,7 @@
    position: relative;
    overflow: hidden;
    width: 100%;
-   height: 70vh;
+   margin-top: 100px;
 }
 .logo_contacto{
    width: 20px;
@@ -21,4 +21,12 @@
 .subtitulo_contacto{
    color: gray;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container_form{
+   background-color: white;
+}
+.container_aside{
+   text-align: center;
+   background-color: black;
+   color: white;
 }
