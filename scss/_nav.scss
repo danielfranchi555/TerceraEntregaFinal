@@ -15,10 +15,16 @@
      border-radius: 10px;
      }
  }
- 
+ .navbar-nav{
+     .nav-item{
+         .nav-link{
+             color: black;
+         }
+     }
+ }
  
 nav{
-     background-color: rgba(13, 179, 165, 0.637);
+     background-color:rgba(11, 174, 120, 0.675);
      margin-bottom: 200px;
      
      
@@ -29,7 +35,7 @@ nav{
         
         
         .dropdown-menu {
-        background-color:white
+        background-color:rgba(211, 211, 211, 0.637);
         }
     }
     }

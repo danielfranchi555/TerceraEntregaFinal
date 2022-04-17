@@ -18,14 +18,17 @@ p {
     height: 80;
     border-radius: 10px; }
 
+.navbar-nav .nav-item .nav-link {
+  color: black; }
+
 nav {
-  background-color: rgba(13, 179, 165, 0.637);
+  background-color: rgba(11, 174, 120, 0.675);
   margin-bottom: 200px; }
   nav ul {
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
     nav ul .dropdown-menu {
-      background-color: white; }
+      background-color: rgba(211, 211, 211, 0.637); }
 
 .logo_jg {
   height: 80px;
@@ -216,6 +219,9 @@ nav {
 .subtitulos_tanques {
   color: black; }
 
+.container_fumigacion {
+  margin-top: 100px; }
+
 .titulo_fumigacion {
   text-align: center;
   padding: 10px;
@@ -242,3 +248,14 @@ p {
   font-size: 18px;
   color: gray;
   font-family: Arial; }
+
+.img {
+  width: 100%;
+  margin: 20px;
+  height: 100%; }
+
+.img_asesoramiento {
+  width: 90%;
+  text-align: center;
+  box-shadow: 5px 5px 20px #050505;
+  margin-top: 100px; }
