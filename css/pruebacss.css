@@ -261,6 +261,9 @@ nav {
 .titulo_servicio {
   text-align: center; }
 
+.card_plagas {
+  height: 182px; }
+
 .container_tanques {
   margin: 200px 50px 100px; }
 
