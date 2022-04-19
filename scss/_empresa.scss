@@ -11,17 +11,15 @@
 }
 
 
-.titulos_servicios{
-  .titulos_servicio{
-   text-align: center;
-  }
+
+  
    
-    margin-top: 200px;
     
-}
 
 
-.parrafo{
+
+.parrafo_empresa{
+  color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 15px;
 }
@@ -37,12 +35,19 @@
     width: 100px;
     height: 100px;
     padding: 10px;
+    border-radius: 25%;
   }
-  .parrafo_garantia{
-      color: black;
+  .parrafo_calidad{
+    color: rgb(1, 1, 1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px rgb(239, 237, 237);
     }
   }
   
+.container_historia{
+  background-color:rgba(128, 128, 128, 0.22);
+  margin: 20px;
+}
 
   .titulo_empresa{
     margin-top: 100px;
@@ -58,13 +63,14 @@
 
   .card{
     transition: all 440ms ease;
-    
-  }
 
-  .card :hover{
+     &:hover{
     box-shadow: 5px 5px 20px rgb(5, 5, 5);
     transform: translateY(-3%);
   }
+  }
+
+  
 
   .container_cards{
     margin: 30px;
@@ -73,3 +79,6 @@
   .cards{
       background-color: seagreen;
     }
+.titulo_servicio{
+  text-align: center;
+}

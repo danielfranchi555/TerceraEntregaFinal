@@ -22,7 +22,7 @@ p {
   color: black; }
 
 nav {
-  background-color: rgba(11, 174, 120, 0.675);
+  background-color: rgba(8, 148, 46, 0.675);
   margin-bottom: 200px; }
   nav ul {
     font-size: 20px;
@@ -39,21 +39,6 @@ nav {
   padding: 0%;
   box-sizing: border-box; }
 
-.reloj {
-  width: 30px;
-  height: 30px;
-  padding: 5px; }
-
-.instagram {
-  width: 30px;
-  height: 30px;
-  padding: 5px; }
-
-.telefono {
-  width: 30px;
-  height: 30px;
-  padding: 5px; }
-
 .carousel-innerm {
   position: relative;
   overflow: hidden;
@@ -65,19 +50,14 @@ nav {
   border-top: 1px solid gray;
   padding: 20px; }
 
-.parrafos_inicio {
-  color: black;
-  font-size: 15px;
-  font-family: Georgia, 'Times New Roman', Times, serif; }
+.parrafo_inicio {
+  color: black; }
 
 .logo_inicio {
   width: 50px; }
 
 .segunda_section {
   text-align: center; }
-
-.subtitulos {
-  color: black; }
 
 .container_trabajos {
   background-color: rgba(11, 146, 29, 0.461); }
@@ -94,6 +74,9 @@ nav {
   height: 5px;
   padding: 5px; }
 
+.img_asesoramiento {
+  width: 90%; }
+
 .footer {
   display: flex;
   justify-content: center;
@@ -105,6 +88,9 @@ nav {
   width: 40px;
   height: 40px;
   padding: 10px; }
+
+.parrafo_footer {
+  font-size: 12px; }
 
 .d-block {
   margin-top: 100px; }
@@ -179,10 +165,9 @@ nav {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 .titulo_contacto {
-  color: black;
+  color: rgba(7, 162, 7, 0.739);
   text-align: center;
-  padding: 10px;
-  border-bottom: 1px solid green; }
+  padding: 15px; }
 
 .imagen_contacto {
   position: relative;
@@ -207,8 +192,11 @@ nav {
 
 .container_aside {
   text-align: center;
-  background-color: black;
-  color: white; }
+  background-color: rgba(35, 34, 34, 0.983);
+  color: #eeeeee; }
+  .container_aside .row .informacion h6 .parrafo_contacto {
+    color: white;
+    font-size: 15px; }
 
 .container_empresa {
   margin: 30px;
@@ -219,12 +207,8 @@ nav {
     font-size: 15px;
     padding: 10px; }
 
-.titulos_servicios {
-  margin-top: 200px; }
-  .titulos_servicios .titulos_servicio {
-    text-align: center; }
-
-.parrafo {
+.parrafo_empresa {
+  color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 15px; }
 
@@ -237,9 +221,16 @@ nav {
   .garantia .logo_garantia {
     width: 100px;
     height: 100px;
-    padding: 10px; }
-  .garantia .parrafo_garantia {
-    color: black; }
+    padding: 10px;
+    border-radius: 25%; }
+  .garantia .parrafo_calidad {
+    color: #010101;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px #efeded; }
+
+.container_historia {
+  background-color: rgba(128, 128, 128, 0.22);
+  margin: 20px; }
 
 .titulo_empresa {
   margin-top: 100px;
@@ -252,16 +243,18 @@ nav {
 
 .card {
   transition: all 440ms ease; }
-
-.card :hover {
-  box-shadow: 5px 5px 20px #050505;
-  transform: translateY(-3%); }
+  .card:hover {
+    box-shadow: 5px 5px 20px #050505;
+    transform: translateY(-3%); }
 
 .container_cards {
   margin: 30px; }
 
 .cards {
   background-color: seagreen; }
+
+.titulo_servicio {
+  text-align: center; }
 
 .container_tanques {
   margin: 200px 50px 100px; }
@@ -286,35 +279,28 @@ nav {
 .titulo_fumigacion {
   text-align: center;
   padding: 10px;
-  color: rgba(14, 92, 209, 0.555); }
+  color: seagreen; }
 
 .subtitulos_fumigacion {
+  color: seagreen;
+  padding: 10px;
+  width: auto;
+  text-align: center; }
+
+.parrafo_fumigacion {
   color: black; }
 
-.d-grid {
-  width: 100%;
-  transition: all 440ms ease;
-  height: 200px;
-  font-family: Arial, Helvetica, sans-serif; }
+.container_empresas {
+  margin: 50px;
+  width: auto;
+  background-color: rgba(200, 191, 191, 0.261);
+  border-radius: 20%; }
 
-.d-grid :hover {
-  width: 100%;
-  box-shadow: 5px 5px 20px #050505;
-  transform: translateY(-3%); }
-
-.clientes {
-  display: flex;
-  justify-content: center;
+.logo_empresas {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
   width: auto; }
-  .clientes .titulo_empresas {
-    color: black;
-    padding: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
-
-.empresas {
-  width: 75px;
-  height: 75px;
-  padding: 10px; }
 
 h2 {
   font-size: 25x;
@@ -338,6 +324,11 @@ p {
   margin-top: 100px; }
 
 .img_desinfeccion {
+  width: 90%;
+  text-align: center;
+  box-shadow: 5px 5px 20px #050505; }
+
+.img_historia {
   width: 90%;
   text-align: center;
   box-shadow: 5px 5px 20px #050505; }

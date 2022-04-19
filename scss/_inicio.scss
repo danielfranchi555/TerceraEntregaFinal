@@ -3,26 +3,6 @@
     padding: 0%;
     box-sizing: border-box;
   }
-  
-
-.reloj {
-  width: 30px;
-  height: 30px;
-  padding: 5px;
-}
-.instagram {
-  width: 30px;
-  height: 30px;
-  padding: 5px;
-}
-
-.telefono {
-  width: 30px;
-  height: 30px;
-  padding: 5px;
-}
-
-
 
 // EMPIEZA CARROUSEL
 
@@ -44,12 +24,9 @@
 
   
 }
-.parrafos_inicio {
-    color: black;
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-  }
+.parrafo_inicio{
+  color: black;
+}
 .logo_inicio {
   width: 50px;
 }
@@ -61,9 +38,7 @@
 .segunda_section {
   text-align: center;
 }
-.subtitulos {
-  color: black;
-}
+
 
 .container_trabajos{
   background-color: rgba(11, 146, 29, 0.461);
@@ -92,3 +67,6 @@
   
 }
 
+.img_asesoramiento{
+  width: 90%;
+}

@@ -2,10 +2,9 @@
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .titulo_contacto{
-   color: black;
+   color: rgba(7, 162, 7, 0.739);
    text-align: center;
-   padding: 10px;
-   border-bottom: 1px solid green;
+   padding: 15px;
 }
 .imagen_contacto{
    position: relative;
@@ -30,8 +29,21 @@
 .container_form{
    background-color: white;
 }
+
+
 .container_aside{
    text-align: center;
-   background-color: black;
-   color: white;
+   background-color: rgba(35, 34, 34, 0.983);
+   color: rgb(238, 238, 238);
+   .row{
+      .informacion{
+         h6{
+            .parrafo_contacto{
+            color: white ;
+            font-size: 15px;
+         }
+         }
+         
+      }
+   }
 }

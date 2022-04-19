@@ -5,37 +5,28 @@ margin-top: 100px;
 .titulo_fumigacion{
  text-align: center;
  padding: 10px;
- color: rgba(14, 92, 209, 0.555);
+ color: seagreen;
 }
 .subtitulos_fumigacion{
+    color: seagreen; 
+    padding: 10px;
+    width: auto;
+    text-align: center
+    
+}
+.parrafo_fumigacion{
     color: black;
 }
-
-
-.d-grid{
-    width: 100%;
-    transition: all 440ms ease;
-    height: 200px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.d-grid :hover{
-    width: 100%;
-    box-shadow: 5px 5px 20px rgb(5, 5, 5);
-    transform: translateY(-3%);
-}
-.clientes{
-    display: flex;
-    justify-content: center;
+.container_empresas{
+    margin: 50px;
     width: auto;
-    .titulo_empresas{
-        color: black;
-        padding: 10px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+    background-color: rgba(200, 191, 191, 0.261);
+    border-radius: 20%;
+    
 }
-.empresas{
-    width: 75px;
-    height: 75px;
-    padding: 10px;
+.logo_empresas{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    width: auto;
 }
