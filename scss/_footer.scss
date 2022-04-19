@@ -1,15 +1,22 @@
-
-
 .footer{
+    justify-content: center;
+    background-color: rgb(248, 248, 248);
+    border-top: solid 1px black;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    
+}
+.logo_footer{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+.parrafo_footer{
+    font-size: 10px;
     text-align: center;
-    background-color: map-get($map: $paleta, $key:dos);
-    width: 100%;
-    .parrafo_footer{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: #070707;
-        padding: 15px;
-        font-size: 12px;
-    }
+    color: black;
 }
 
  

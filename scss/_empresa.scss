@@ -1,7 +1,24 @@
-.titulo_empresa{
- text-align: center;
- margin-top: 200px;
+.container_empresa{
+  margin: 30px;
+  background-color: rgba(128, 128, 128, 0.068);
+
+  .parrafo_empresa{
+      margin: 10px;
+      color: black;
+      font-size: 15px;
+      padding: 10px;
+    }
 }
+
+
+.titulos_servicios{
+   
+    .titulo_empresa{
+    text-align: center;
+    margin-top: 200px;
+    }
+}
+
 
 .parrafo{
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -13,15 +30,23 @@
     height: 60px;
   }
   
-  
-  .logo_garantia{
+  .garantia{
+    background-color: rgba(11, 146, 29, 0.461);
+    .logo_garantia{
     width: 100px;
     height: 100px;
     padding: 10px;
   }
+  .parrafo_garantia{
+      color: black;
+    }
+  }
+  
 
-  .titulo_servicio{
+  .titulo_empresa{
     text-align: center;
+    color: seagreen;
+    
   }
   
   .card-img-top{
@@ -38,3 +63,11 @@
     box-shadow: 5px 5px 20px rgb(5, 5, 5);
     transform: translateY(-3%);
   }
+
+  .container_cards{
+    margin: 30px;
+    
+  }
+  .cards{
+      background-color: seagreen;
+    }

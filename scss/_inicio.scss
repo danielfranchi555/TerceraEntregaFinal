@@ -4,17 +4,7 @@
     box-sizing: border-box;
   }
   
-.top_nav {
 
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
-  p {
-    padding: px;
-    text-align: center;
-    font-size: 15px;
-  }
-}
 .reloj {
   width: 30px;
   height: 30px;
@@ -47,14 +37,15 @@
 
 // EMPIEZA 1RA SECTION============================
 .titulos_inicio {
-  color: black;
+  color: seagreen;
   border-top: 1px solid gray;
   padding: 20px;
+  
 
   
 }
-.parrafo_inicio {
-    color: rgb(138, 130, 130);
+.parrafos_inicio {
+    color: black;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
@@ -72,5 +63,32 @@
 }
 .subtitulos {
   color: black;
+}
+
+.container_trabajos{
+  background-color: rgba(11, 146, 29, 0.461);
+ 
+  .main_logos{
+    padding: 20px;
+   
+    article{
+      
+      .logo_inicio{
+           transition: all 440ms ease;
+      }
+       &:hover{
+        box-shadow: 5px 5px 20px rgb(5, 5, 5);
+      transform: translateY(-1%);
+      }
+       
+      }
+    }
+  }
+
+.titulos_logo{
+  color: black;
+  height: 5px;
+  padding: 5px;
+  
 }
 

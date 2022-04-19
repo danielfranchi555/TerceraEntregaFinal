@@ -13,12 +13,29 @@ margin-top: 100px;
 
 
 .d-grid{
+    width: 100%;
     transition: all 440ms ease;
     height: 200px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .d-grid :hover{
+    width: 100%;
     box-shadow: 5px 5px 20px rgb(5, 5, 5);
     transform: translateY(-3%);
+}
+.clientes{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    .titulo_empresas{
+        color: black;
+        padding: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+.empresas{
+    width: 75px;
+    height: 75px;
+    padding: 10px;
 }

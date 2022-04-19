@@ -1,7 +1,12 @@
 .mensaje{
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+.titulo_contacto{
+   color: black;
+   text-align: center;
+   padding: 10px;
+   border-bottom: 1px solid green;
+}
 .imagen_contacto{
    position: relative;
    overflow: hidden;

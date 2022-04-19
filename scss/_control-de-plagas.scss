@@ -19,15 +19,19 @@
 }
 
 .parrafo_plagas{
+    color: black;
     padding: 20px;
     font-size: 17px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .titulos_plagas{
-    color: blue;
+    color: seagreen;
 }
 .subtitulos_plagas{
-    color: black;
+    color: seagreen;
+    .parrafo_plagas{
+        color: black;
+    }
 }
 
 .tercera_section{
@@ -45,6 +49,20 @@
 
 .card-title{
     color: black;
+}
+.card_control-plagas{
+    
+    .title_card{
+        color: blue;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .card-text{
+        height: 250px;
+        color: black;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
 }
 .garantia{
     display: flex;

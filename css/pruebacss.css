@@ -39,15 +39,6 @@ nav {
   padding: 0%;
   box-sizing: border-box; }
 
-.top_nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 5px; }
-  .top_nav p {
-    padding: px;
-    text-align: center;
-    font-size: 15px; }
-
 .reloj {
   width: 30px;
   height: 30px;
@@ -70,12 +61,12 @@ nav {
   height: 100vh; }
 
 .titulos_inicio {
-  color: black;
+  color: seagreen;
   border-top: 1px solid gray;
   padding: 20px; }
 
-.parrafo_inicio {
-  color: #8a8282;
+.parrafos_inicio {
+  color: black;
   font-size: 15px;
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
@@ -88,15 +79,39 @@ nav {
 .subtitulos {
   color: black; }
 
+.container_trabajos {
+  background-color: rgba(11, 146, 29, 0.461); }
+  .container_trabajos .main_logos {
+    padding: 20px; }
+    .container_trabajos .main_logos article .logo_inicio {
+      transition: all 440ms ease; }
+    .container_trabajos .main_logos article:hover {
+      box-shadow: 5px 5px 20px #050505;
+      transform: translateY(-1%); }
+
+.titulos_logo {
+  color: black;
+  height: 5px;
+  padding: 5px; }
+
 .footer {
+  justify-content: center;
+  background-color: #f8f8f8;
+  border-top: solid 1px black; }
+
+.logos {
+  display: flex;
+  justify-content: center; }
+
+.logo_footer {
+  width: 40px;
+  height: 40px;
+  padding: 10px; }
+
+.parrafo_footer {
+  font-size: 10px;
   text-align: center;
-  background-color: #b6b6b6;
-  width: 100%; }
-  .footer .parrafo_footer {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #070707;
-    padding: 15px;
-    font-size: 12px; }
+  color: black; }
 
 .d-block {
   margin-top: 100px; }
@@ -117,15 +132,18 @@ nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .parrafo_plagas {
+  color: black;
   padding: 20px;
   font-size: 17px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
 .titulos_plagas {
-  color: blue; }
+  color: seagreen; }
 
 .subtitulos_plagas {
-  color: black; }
+  color: seagreen; }
+  .subtitulos_plagas .parrafo_plagas {
+    color: black; }
 
 .tercera_section {
   background-color: rgba(21, 180, 42, 0.829);
@@ -138,6 +156,17 @@ nav {
 
 .card-title {
   color: black; }
+
+.card_control-plagas .title_card {
+  color: blue;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.card_control-plagas .card-text {
+  height: 250px;
+  color: black;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 .garantia {
   display: flex;
@@ -155,6 +184,12 @@ nav {
 
 .mensaje {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.titulo_contacto {
+  color: black;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid green; }
 
 .imagen_contacto {
   position: relative;
@@ -182,7 +217,16 @@ nav {
   background-color: black;
   color: white; }
 
-.titulo_empresa {
+.container_empresa {
+  margin: 30px;
+  background-color: rgba(128, 128, 128, 0.068); }
+  .container_empresa .parrafo_empresa {
+    margin: 10px;
+    color: black;
+    font-size: 15px;
+    padding: 10px; }
+
+.titulos_servicios .titulo_empresa {
   text-align: center;
   margin-top: 200px; }
 
@@ -194,13 +238,18 @@ nav {
   width: 60px;
   height: 60px; }
 
-.logo_garantia {
-  width: 100px;
-  height: 100px;
-  padding: 10px; }
+.garantia {
+  background-color: rgba(11, 146, 29, 0.461); }
+  .garantia .logo_garantia {
+    width: 100px;
+    height: 100px;
+    padding: 10px; }
+  .garantia .parrafo_garantia {
+    color: black; }
 
-.titulo_servicio {
-  text-align: center; }
+.titulo_empresa {
+  text-align: center;
+  color: seagreen; }
 
 .card-img-top {
   height: auto;
@@ -213,11 +262,28 @@ nav {
   box-shadow: 5px 5px 20px #050505;
   transform: translateY(-3%); }
 
+.container_cards {
+  margin: 30px; }
+
+.cards {
+  background-color: seagreen; }
+
 .container_tanques {
   margin: 200px 50px 100px; }
 
 .subtitulos_tanques {
   color: black; }
+
+.d-grid {
+  width: 100%;
+  transition: all 440ms ease;
+  height: 200px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.d-grid :hover {
+  width: 100%;
+  box-shadow: 5px 5px 20px #8d0909;
+  transform: translateY(-3%); }
 
 .container_fumigacion {
   margin-top: 100px; }
@@ -231,13 +297,29 @@ nav {
   color: black; }
 
 .d-grid {
+  width: 100%;
   transition: all 440ms ease;
   height: 200px;
   font-family: Arial, Helvetica, sans-serif; }
 
 .d-grid :hover {
+  width: 100%;
   box-shadow: 5px 5px 20px #050505;
   transform: translateY(-3%); }
+
+.clientes {
+  display: flex;
+  justify-content: center;
+  width: auto; }
+  .clientes .titulo_empresas {
+    color: black;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.empresas {
+  width: 75px;
+  height: 75px;
+  padding: 10px; }
 
 h2 {
   font-size: 25x;
@@ -259,3 +341,8 @@ p {
   text-align: center;
   box-shadow: 5px 5px 20px #050505;
   margin-top: 100px; }
+
+.img_desinfeccion {
+  width: 90%;
+  text-align: center;
+  box-shadow: 5px 5px 20px #050505; }
