@@ -95,23 +95,16 @@ nav {
   padding: 5px; }
 
 .footer {
+  display: flex;
   justify-content: center;
   background-color: #f8f8f8;
-  border-top: solid 1px black; }
-
-.logos {
-  display: flex;
-  justify-content: center; }
+  border-top: solid 1px black;
+  text-align: center; }
 
 .logo_footer {
   width: 40px;
   height: 40px;
   padding: 10px; }
-
-.parrafo_footer {
-  font-size: 10px;
-  text-align: center;
-  color: black; }
 
 .d-block {
   margin-top: 100px; }
@@ -226,9 +219,10 @@ nav {
     font-size: 15px;
     padding: 10px; }
 
-.titulos_servicios .titulo_empresa {
-  text-align: center;
+.titulos_servicios {
   margin-top: 200px; }
+  .titulos_servicios .titulos_servicio {
+    text-align: center; }
 
 .parrafo {
   font-family: Georgia, 'Times New Roman', Times, serif;

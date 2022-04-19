@@ -1,22 +1,16 @@
 .footer{
+    display: flex;
     justify-content: center;
     background-color: rgb(248, 248, 248);
     border-top: solid 1px black;
+    text-align: center;
 }
-.logos{
-    display: flex;
-    justify-content: center;
-    
-}
+
 .logo_footer{
     width: 40px;
     height: 40px;
     padding: 10px;
-}
-.parrafo_footer{
-    font-size: 10px;
-    text-align: center;
-    color: black;
+    
 }
 
- 
+
