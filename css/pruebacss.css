@@ -37,7 +37,8 @@ nav {
 * {
   margin: 0%;
   padding: 0%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 .carousel-innerm {
   position: relative;
@@ -51,7 +52,9 @@ nav {
   padding: 20px; }
 
 .parrafo_inicio {
-  color: black; }
+  color: black;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif; }
 
 .logo_inicio {
   width: 50px; }
@@ -81,6 +84,18 @@ nav {
   color: white;
   text-shadow: 2px 2px black;
   padding: 10 px; }
+
+.logo_inspeccion {
+  width: 100px;
+  padding: 10px; }
+
+.logo_desinfeccion {
+  width: 90px;
+  padding: 10px; }
+
+.logo_profesional {
+  width: 90px;
+  padding: 10px; }
 
 .footer {
   display: flex;
@@ -119,15 +134,16 @@ nav {
   color: black;
   padding: 20px;
   font-size: 17px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif; }
 
-.titulos_plagas {
+.titulo_plagas {
   color: seagreen; }
 
 .subtitulos_plagas {
   color: seagreen; }
   .subtitulos_plagas .parrafo_plagas {
-    color: black; }
+    color: black;
+    font-family: Arial, Helvetica, sans-serif; }
 
 .tercera_section {
   background-color: rgba(21, 180, 42, 0.829);
@@ -204,17 +220,31 @@ nav {
     font-size: 15px; }
 
 .container_empresa {
-  margin: 30px;
-  background-color: rgba(128, 128, 128, 0.068); }
+  margin: 30px; }
   .container_empresa .parrafo_empresa {
     margin: 10px;
-    color: black;
+    color: #da0000;
     font-size: 15px;
     padding: 10px; }
 
-.parrafo_empresa {
+.parrafo_uno {
+  color: black;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-right: solid 0.5px gray;
+  padding: 15px;
+  text-align: center; }
+
+.parrafo_dos {
+  padding: 15px;
   color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  border-left: solid 0.5px gray;
+  text-align: center; }
+
+.parrafo_tres {
+  color: black;
   font-size: 15px; }
 
 .logos_empresa {
@@ -234,8 +264,7 @@ nav {
     text-shadow: 1px 1px #efeded; }
 
 .container_historia {
-  background-color: rgba(128, 128, 128, 0.22);
-  margin: 20px; }
+  margin: 10px; }
 
 .titulo_empresa {
   margin-top: 100px;
@@ -281,6 +310,11 @@ nav {
   box-shadow: 5px 5px 20px #8d0909;
   transform: translateY(-3%); }
 
+.parrafo_tanques {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 16px; }
+
 .container_fumigacion {
   margin-top: 100px; }
 
@@ -321,9 +355,7 @@ p {
   font-family: Arial; }
 
 .img {
-  width: 100%;
-  margin: 20px;
-  height: 100%; }
+  width: 100%; }
 
 .img_asesoramiento {
   width: 90%;
@@ -339,4 +371,13 @@ p {
 .img_historia {
   width: 90%;
   text-align: center;
+  box-shadow: 5px 5px 20px #050505;
+  margin-left: 30px; }
+
+.img_fumigacion {
+  width: 90%;
+  margin-left: 30px;
   box-shadow: 5px 5px 20px #050505; }
+
+.img_tanques {
+  width: 100%; }

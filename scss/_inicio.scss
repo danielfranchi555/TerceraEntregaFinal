@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
 // EMPIEZA CARROUSEL
@@ -26,6 +27,8 @@
 }
 .parrafo_inicio{
   color: black;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .logo_inicio {
   width: 50px;
@@ -74,4 +77,16 @@
   color: white;
   text-shadow: 2px 2px black;
   padding: 10 px;
+}
+.logo_inspeccion{
+  width: 100px;
+  padding: 10px;
+}
+.logo_desinfeccion{
+  width: 90px;
+  padding: 10px;
+}
+.logo_profesional{
+  width: 90px;
+  padding: 10px;
 }
