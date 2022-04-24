@@ -22,7 +22,7 @@ p {
   color: black; }
 
 nav {
-  background-color: rgba(8, 148, 46, 0.675);
+  background-color: rgba(8, 192, 238, 0.752);
   margin-bottom: 200px; }
   nav ul {
     font-size: 20px;
@@ -152,7 +152,8 @@ nav {
     font-size: 30px;
     padding: 20px;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px black; }
 
 .card-title {
   color: black; }
@@ -228,7 +229,7 @@ nav {
     padding: 10px; }
 
 .parrafo_uno {
-  color: black;
+  color: #070707;
   font-size: 15px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-right: solid 0.5px gray;
@@ -237,7 +238,7 @@ nav {
 
 .parrafo_dos {
   padding: 15px;
-  color: black;
+  color: #080808;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 15px;
   border-left: solid 0.5px gray;
@@ -261,10 +262,11 @@ nav {
   .garantia .parrafo_calidad {
     color: #010101;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 1px 1px #efeded; }
+    text-shadow: 1px 1px #100f0f; }
 
 .container_historia {
-  margin: 10px; }
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.087); }
 
 .titulo_empresa {
   margin-top: 100px;
@@ -294,26 +296,35 @@ nav {
   height: 182px; }
 
 .container_tanques {
-  margin: 200px 50px 100px; }
+  margin: 50px 50px 100px; }
+
+.titulo_tanque {
+  margin-top: 150px;
+  text-align: center; }
+  .titulo_tanque h2 {
+    color: seagreen;
+    border-bottom: solid 1px gray; }
 
 .subtitulos_tanques {
-  color: black; }
+  color: black;
+  padding: 15px; }
 
 .d-grid {
   width: 100%;
   transition: all 440ms ease;
-  height: 200px;
+  height: 100px;
   font-family: Arial, Helvetica, sans-serif; }
 
 .d-grid :hover {
   width: 100%;
-  box-shadow: 5px 5px 20px #8d0909;
-  transform: translateY(-3%); }
+  box-shadow: 2px 2px 20px #8d0909;
+  transform: translateY(5%); }
 
 .parrafo_tanques {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
-  font-size: 16px; }
+  font-size: 16px;
+  padding: 10px; }
 
 .container_fumigacion {
   margin-top: 100px; }
@@ -380,4 +391,28 @@ p {
   box-shadow: 5px 5px 20px #050505; }
 
 .img_tanques {
-  width: 100%; }
+  width: 100%;
+  box-shadow: 5px 5px 20px black; }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+.body_error {
+  overflow: hidden; }
+  .body_error .error {
+    background-color: #484747;
+    padding: 10px;
+    color: #f31212;
+    font-family: 'Courier New', Courier, monospace; }
+    .body_error .error p {
+      color: white;
+      font-family: 'Courier New', Courier, monospace; }
+      .body_error .error p .logo_mantenimiento {
+        width: 50px;
+        height: 50px; }
+
+.img_error {
+  width: 100%;
+  height: 100vh; }

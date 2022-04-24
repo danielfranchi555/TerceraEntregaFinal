@@ -18,17 +18,16 @@
 
 
 .parrafo_uno{
-  color: black;
+  color: rgb(7, 7, 7);
   font-size: 15px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- 
   border-right: solid 0.5px gray;
   padding: 15px;
   text-align: center;
 }
 .parrafo_dos{
   padding: 15px;
-  color: black;
+  color: rgb(8, 8, 8);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 15px;
   border-left: solid 0.5px gray;
@@ -55,12 +54,13 @@
   .parrafo_calidad{
     color: rgb(1, 1, 1);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 1px 1px rgb(239, 237, 237);
+    text-shadow: 1px 1px rgb(16, 15, 15);
     }
   }
   
 .container_historia{
   margin: 10px;
+  background-color: rgba(0, 0, 0, 0.087);
 }
 
   .titulo_empresa{

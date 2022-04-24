@@ -1,26 +1,36 @@
 .container_tanques{
-    margin: 200px 50px 100px;
+    margin: 50px 50px 100px;
     
+}
+.titulo_tanque{
+    margin-top: 150px;
+    text-align: center;
+    h2{
+        color: seagreen;
+        border-bottom: solid 1px gray;
+    }
 }
 
 .subtitulos_tanques{
     color: black;
+    padding: 15px;
 }
 .d-grid{
     width: 100%;
     transition: all 440ms ease;
-    height: 200px;
+    height: 100px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .d-grid :hover{
     width: 100%;
-    box-shadow: 5px 5px 20px rgb(141, 9, 9);
-    transform: translateY(-3%);
+    box-shadow: 2px 2px 20px rgb(141, 9, 9);
+    transform: translateY(5%);
 }
 .parrafo_tanques{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-size: 16px;
+    padding: 10px;
 
 }
