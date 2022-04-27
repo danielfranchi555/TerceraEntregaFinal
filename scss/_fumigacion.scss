@@ -1,5 +1,8 @@
 .container_fumigacion{
 margin-top: 100px;
+background-color: rgba(0, 0, 0, 0.087);
+font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .titulo_fumigacion{
@@ -16,12 +19,17 @@ margin-top: 100px;
 }
 .parrafo_fumigacion{
     color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
 }
 .container_empresas{
     margin: 50px;
     width: auto;
     background-color: rgba(200, 191, 191, 0.261);
     border-radius: 20%;
+    background-color: honeydew;
     
 }
 .logo_empresas{
