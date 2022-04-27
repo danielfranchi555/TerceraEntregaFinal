@@ -293,7 +293,7 @@ nav {
   text-align: center; }
 
 .card_plagas {
-  height: 185px; }
+  height: 187px; }
 
 .container_tanques {
   margin: 50px 50px 100px; }
@@ -387,6 +387,7 @@ p {
 
 .img_fumigacion {
   width: 90%;
+  height: 250px;
   margin-left: 30px;
   box-shadow: 5px 5px 20px #050505; }
 
